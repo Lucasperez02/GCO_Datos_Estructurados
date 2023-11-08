@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Packets - Pedidos</title>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "ParcelDelivery",
+        "trackingNumber": "123412",
+        "expectedArrivalFrom": "2023-11-15T14:00:00-07:00",
+        "provider": {
+            "@type": "Organization",
+            "name": "Mariscos Recio"
+        },
+        "deliveryAddress": {
+            "@type": "PostalAddress",
+            "streetAddress": "Av. Rafael Puig Lluvina",
+            "addressLocality": "Costa Adeje",
+            "addressRegion": "S/C Tenerife",
+            "postalCode": "38660",
+            "addressCountry": "ES"
+        },
+        "carrier": {
+            "@type": "Organization",
+            "name": "SEUR Transport",
+            "vehicle": {
+              "@type": "Product",
+              "name": "Camión Frigorifico",
+              "vehicleIdentificationNumber": "F-SEUR-1",
+              "fuelType": "Diesel",
+              "cargoVolume": {
+                "minValue": "20000",
+                "maxValue": "31000"
+              }
+            }
+        }
+    }
+    </script>
+
+    <style>
+        ul.horizontal-menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.horizontal-menu li {
+            display: inline;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="horizontal-menu">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./Rutas.html">Rutas</a></li>
+        <li><a href="./Trafico.html">Trafico</a></li>
+    </ul>
+</body>
+
+</html>
