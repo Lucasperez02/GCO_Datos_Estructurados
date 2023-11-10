@@ -26,16 +26,20 @@
         "carrier": {
             "@type": "Organization",
             "name": "SEUR Transport",
-            "vehicle": {
-              "@type": "Product",
-              "name": "Camión Frigorifico",
-              "vehicleIdentificationNumber": "F-SEUR-1",
-              "fuelType": "Diesel",
-              "cargoVolume": {
-                "minValue": "20000",
-                "maxValue": "31000"
-              }
+            "owns": {
+                "@type": "Product",
+                "category": {
+                    "@type": "Vehicle",
+                    "name": "Camión Frigorifico",
+                    "vehicleIdentificationNumber": "F-SEUR-1",
+                    "fuelType": "Diesel",
+                    "cargoVolume": {
+                        "minValue": "20000",
+                        "maxValue": "31000"
+                    }
+                }
             }
+            
         }
     }
     </script>

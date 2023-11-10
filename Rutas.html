@@ -6,12 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uber Packets - Rutas</title>
     <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "Map",
-        "mapType": "TransitMap"
-      }
-    </script>
+        {
+          "@context": "http://schema.org",
+          "@type": "Place",
+          "hasMap": {
+            "@type": "Map",
+            "mapType": "TransitMap",
+            "contentLocation": [
+                  {
+                      "@type": "Place",
+                      "name": "Hotel Troya",
+                      "geo": {
+                      "@type": "GeoCoordinates",
+                      "latitude": 28.06768,
+                      "longitude": -16.73171
+                      }
+                  },
+                  {
+                      "@type": "Place",
+                      "name": "Hotel Gala",
+                      "geo": {
+                      "@type": "GeoCoordinates",
+                      "latitude": 28.06676,
+                      "longitude": -16.73054 
+                      }
+                  },
+                  {
+                      "@type": "Place",
+                      "name": "Hotel La Siesta",
+                      "geo": {
+                      "@type": "GeoCoordinates",
+                      "latitude": 28.05888,
+                      "longitude": -16.73338
+                      }
+                  }
+            ]
+          }
+        }
+      </script>
 
     <style>
         ul.horizontal-menu {
